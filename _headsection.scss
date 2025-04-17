@@ -1,0 +1,32 @@
+.head-section{
+    height: 630px;
+    width: 100%;
+    background-image: url(./photos/background-1.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 180px 100px;
+    .head-section-child{
+        width: 630px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+        }
+        p{
+            font-size: 13px;
+        }
+        button{
+            padding: 15px 12px;
+            width: 118px;
+            font-size: 12px;
+            border: 0;
+            background-color: #5D5BD4;
+            color: white;
+            font-weight: 400;
+            border-radius: 4px;
+        }
+    }
+}
