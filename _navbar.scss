@@ -1,0 +1,51 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 60px;
+    .first-nav{
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        .logodiv{
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            font-size: 15px;
+            font-weight: 500;
+            color: #727272;
+            img{
+                width: 27px;
+                height: 27px;
+            }
+        }
+        .nav-selection{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            h3{
+                font-size: 15px;
+                font-weight: 500;
+            }
+            ul{
+                list-style-type: none;
+                font-size: 12px;
+                font-weight: 300;
+                display: flex;
+                gap: 14px;
+            }
+        }
+    }
+    .buttons{
+        display: flex;
+        gap: 20px;
+        button{
+            padding: 6px 16px;
+            border-radius: 5px;
+            font-size: 13px;
+            background-color: transparent;
+            font-weight: 400;
+            border: 2px black solid;
+        }
+    }
+}
